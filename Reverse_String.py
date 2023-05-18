@@ -1,5 +1,5 @@
-s = input()
-temp = s.split()
-temp.reverse()
-for i in temp:
-    print(i,end=" ")
+ch = input()
+let = ch.split()
+let.reverse()
+s = " ".join(let)
+print(s)
