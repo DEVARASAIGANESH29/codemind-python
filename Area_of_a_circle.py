@@ -1,3 +1,3 @@
-r = float(input())
-area = 3.14*(r*r)
-print(area)
+r = int(input())
+s = 3.14*(r*r)
+print(s)
