@@ -1,3 +1,2 @@
-num = int(input())//10
-print(num)
-    
+n =int(input())//10
+print(n)
