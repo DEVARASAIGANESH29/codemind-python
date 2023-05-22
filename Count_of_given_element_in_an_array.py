@@ -1,7 +1,6 @@
-a = int(input())
-k = list(map(int,input().split()))
+n = int(input())
+l = list(map(int,input().split()))
 c = int(input())
-for i in k:
-    print(k.count(c))
+for i in l:
+    print(l.count(c))
     break
-        
