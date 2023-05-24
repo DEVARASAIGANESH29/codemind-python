@@ -1,0 +1,5 @@
+n = int(input())
+array = list(map(int, input().split()))
+min_digits = min(len(str(num)) for num in array)
+count = sum(len(str(num)) == min_digits for num in array)
+print(count)
