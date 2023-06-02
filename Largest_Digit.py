@@ -1,3 +1,4 @@
-a = int(input())
-le= str(a)
-print(max(le))
+a = input()
+for i in a:
+    h = int(max(a))
+print(h)
