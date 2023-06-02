@@ -1,10 +1,9 @@
-n = int(input())
-a = 0
-for i in range(1,n-1):
-   if n%i==0:
-       a+=i
-if a>n:
+a = int(input())
+c=0
+for i in range(1,a):
+    if a%i==0:
+        c+=i
+if c>a:
     print("True")
 else:
     print("False")
-    
