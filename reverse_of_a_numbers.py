@@ -1,3 +1,6 @@
-n = input()
-a = n[::-1]
-print(a)
+def reverse(string):
+    string = string[::-1]
+    return string
+ 
+s = input()
+print(reverse(s))
