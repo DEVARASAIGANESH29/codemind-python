@@ -1,7 +1,7 @@
 import math
-num = int(input())
-sqrt_num = math.sqrt(num)
-if sqrt_num.is_integer():
-    print("True")
+a = int(input())
+b = math.sqrt(a)
+if b in range(1,10000):
+    print('True')
 else:
-    print("False")
+    print('False')
